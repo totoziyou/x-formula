@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": false,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es6",
+    //如果要使用装饰器,需要将这一项设置为true
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "jsx": "react"
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
