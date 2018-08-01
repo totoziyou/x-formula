@@ -1,0 +1,33 @@
+.editor {
+    padding: 15px;
+    width: 600px;
+    background: #f6f6f6;
+    border: 1px solid #999999;
+    border-radius: 5px;
+}
+
+.typeSwitchs {
+    font-size:14px;
+    line-height: 30px;
+}
+
+.formulaArea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    height: 60px;
+    line-height: 40px;
+    background: #f0f0f0;
+}
+
+.pannel {
+    display: flex;
+    .fieldsPannel {
+        width: 150px;
+        background: orange;
+    }
+    .operationPannel {
+        flex: 1;
+        margin-left: 10px;
+    }
+}
